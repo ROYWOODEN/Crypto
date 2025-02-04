@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla&display=swap');
+
+body {
+    background: rgb(86, 18, 91);
+    background: linear-gradient(339deg, rgba(86, 18, 91, 1) 0%, rgba(40, 10, 80, 1) 100%);
+    min-height: 100vh;
+    text-align: center;
+    font-family: "Montserrat", serif;
+}
+
+h1 {
+    font-family: "Nabla", cursive;
+    font-size: 10em;
+}
+.selectors {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin: 0 auto;
+}
+.error {
+    color: red;
+    font-size: 1.3em;
+}
+.result {
+    font-size: 1.9em;
+    font-family: "Nabla", cursive;
+}
