@@ -13,6 +13,9 @@ h1 {
     font-family: "Nabla", cursive;
     font-size: 10em;
 }
+h2 {
+    color: white;
+}
 .selectors {
     display: flex;
     justify-content: space-around;
@@ -27,3 +30,7 @@ h1 {
     font-size: 1.9em;
     font-family: "Nabla", cursive;
 }
+.btn-favorite {
+    margin-left: 20px;
+}
+

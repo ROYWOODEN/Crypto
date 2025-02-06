@@ -3,7 +3,7 @@
     <input min="0" type="number" @input="changeAmount($event.target.value)" placeholder="Введите число">
     <br>
     <button @click="convert()">Конвертировать</button>
-    
+    <button class="btn-favorite" @click="favorite()">В избранное</button>
 
 </template>
 
@@ -16,6 +16,10 @@ export default {
             required: true
         },
         convert: {
+            type: Function, 
+            required: true
+        },
+        favorite: {
             type: Function, 
             required: true
         }
